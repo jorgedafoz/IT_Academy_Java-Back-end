@@ -45,19 +45,6 @@ public class JobsController {
         }
 	}
 
-	/*public String getAllEmployees() {
-        List<AbsStaffMember> staffMembers = new ArrayList<>();
-        String membersList = "";
-        for (AbsStaffMember employee : staffMembers) {
-            if (employee instanceof Employee) {
-                membersList = membersList + employee.getName()
-                        + " ................Original Salary:"
-                        + ((Employee) employee).getSalaryPerMonth() + " \n";
-            }
-        } return membersList;
-    }*/
-
-
     public String getAllEmployees() {
 
         List<AbsStaffMember> members = new ArrayList<>(); // I create new object List of the type AbsStaffMember;
